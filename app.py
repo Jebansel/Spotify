@@ -13,8 +13,8 @@ app = Flask(__name__)
 app.secret_key = 's3cr3t_k3y_f0r_s3ss10ns'
 
 # Configuration constants
-SPOTIFY_CLIENT_ID = 'ea384b436028496aa42cd04105650a7f'
-SPOTIFY_CLIENT_SECRET = '3eef91355b1f498fa605f1b562fe25bb'
+SPOTIFY_CLIENT_ID = ''
+SPOTIFY_CLIENT_SECRET = ''
 REDIRECT_URI = 'http://127.0.0.1:5000/authorize'
 SCOPE = 'user-library-read'
 CSV_FILE_PATH = 'songs.csv'
